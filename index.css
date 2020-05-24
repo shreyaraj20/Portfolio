@@ -315,3 +315,47 @@ span.name{
     right: 0;
     top:-30px;
 }
+
+.projects{
+    background-color: #252627;
+    padding: 100px 15px;
+    width: 100%;
+}
+
+.projects .section-title h1{
+    font-size:4rem;
+    font-weight: 600;
+    color: #adad85;
+    text-align: center;
+}
+.projects h2{
+    font-size:2.5rem;
+    font-weight: 400;
+    color: #adad85;
+    text-align: center;
+}
+.projects .project {
+	background:#adad85;
+	color:black;
+	height:50px;
+	padding:15px;
+	margin:15px;
+	border-radius:20px;
+    box-shadow:  2px 5px #f3f59f;
+    text-align: center;
+    list-style-type: none;
+}
+
+.projects .item .project a{
+	color:#2e2e2d;
+	 font-size:15px;
+     font-weight:400;
+   
+}
+ 
+ .projects .item .project:hover {
+    animation: transform 0.7s ease-in-out both;
+	 background:#f3f59f;
+	 box-shadow:  2px 5px #adad85;
+}
+ 
