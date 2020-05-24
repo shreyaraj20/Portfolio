@@ -138,7 +138,7 @@ span.name{
     flex: 0 0 40%;
     min-width: 40%;
     position: relative;
-    left:10px;
+    left:8px;
     
 }
 
@@ -240,7 +240,7 @@ span.name{
         display: flex;
         background-color:#e6ffff;
         position: relative;
-        
+        height:550px;
         width:100%;
        
 }
@@ -294,9 +294,9 @@ span.name{
 }
 .skills .row .skill-box .skill-bar{
     height:5px;
-    background-color: #eeeeee;
+    background-color:white;
     position: relative;
-     
+    left:-10px;
 }
 
 .skills .row .skill-box .skill-bar .skill-bar-in{
@@ -320,6 +320,8 @@ span.name{
     background-color: #252627;
     padding: 100px 15px;
     width: 100%;
+   position: relative;
+   top:-70px;
 }
 
 .projects .section-title h1{
@@ -359,3 +361,81 @@ span.name{
 	 box-shadow:  2px 5px #adad85;
 }
  
+
+@keyframes transform {
+    0% {
+      transform: rotate(0deg)  
+    }
+    25% {
+      transform: rotate(5deg) scale(1.1);
+    }
+    50% {
+      transform: rotate(-5deg) scale(1.1);
+    }
+    75% {
+      transform: rotate(3deg)  scale(1.1);
+    }
+    100% {
+      transform: rotate(0deg) scale(1.1);
+    }
+  }
+   
+  
+footer{
+     padding:80px 15px;
+     background-color: #0c0c17;
+     height:100px;  
+    position: relative;
+    top:170px;
+     
+}
+
+footer .logo {
+    flex:0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    color:#ffffff;
+    
+}
+
+footer .social{
+    flex:0 0 100%;
+    max-width: 100%;
+    text-align:center;
+    position: relative;
+}
+
+
+
+footer .social a{
+    flex:0 0 100%;
+    text-decoration: none;
+    display:inline-block;
+    margin:0px 12px;
+    font-size: 2rem;
+    color: white; 
+    left:15px;
+}
+
+/* 
+.copyright{
+    background-color: #0c0c17;
+    border-top: 1px solid #1d1d27;
+    padding:15px;
+    height: 10px;
+    
+}
+
+.copyright p{
+    color:black;
+    margin:0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    top:100px;
+    justify-content: center;
+   
+} */
