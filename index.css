@@ -1,10 +1,9 @@
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-body{
-    background-color: #252627;
-}
+ 
 .home{
     position: relative;
     top:-30px;
+    background-color: #252627;
 }
 .m-left{
     color:white;
@@ -15,6 +14,8 @@ body{
      left:10%;
      
 }
+ 
+
 p:hover{
     color:rgb(50, 168, 129);
     transition:all .5s;
@@ -40,12 +41,12 @@ span.name{
     color:#ed5565;
     font-size: 1.5rem;
     letter-spacing: 2px;
-    position: relative;
-    top:50px;
-    left:90px;
+    margin-top:70px;
+    margin-left:90px;
     overflow:hidden;
     transition:.5s;
     display:inline-block;
+    cursor: pointer;
 }
 
 
@@ -55,7 +56,7 @@ span.name{
 
 .textt a::before{
     content:'';
-    background-color: #ED5565;
+    background-color:black;
     position: absolute;
     left:0;
     top:0;
@@ -76,22 +77,16 @@ span.name{
     margin-top: 90px;
     border-radius: 50%;
     position: relative;
-    top:20px;
+    top:-20px;
     left:10%;
 }
  
 .about-me{
-    padding:100px 15px;
-    background-color:  white;
-    position: relative;
-    top:70px;
+    padding:50px 20px;
 }
 
 .abot-me .row .section-title{
-    flex: 0 0 90%;
-    max-width:90%;
     margin-bottom:20px;
-
 }
 
 .about-me .row .section-title h1{
@@ -117,10 +112,6 @@ span.name{
     }
  
   
-.about-me .row .about-content .img{
-    flex:0 0 30%;
-    min-width:30%;
-}
 .about-me .row .about-content .img img{
     width: 250px;
     height:250px;
@@ -228,8 +219,6 @@ span.name{
 
 .skills{
     background-color:white;
-    padding:100px 15px;
-     
    
 }
 .skills .container .row{
@@ -318,10 +307,7 @@ span.name{
 
 .projects{
     background-color: #252627;
-    padding: 100px 15px;
     width: 100%;
-   position: relative;
-   top:-70px;
 }
 
 .projects .section-title h1{
@@ -349,14 +335,14 @@ span.name{
 }
 
 .projects .item .project a{
-	color:#2e2e2d;
+	 color:#2e2e2d;
 	 font-size:15px;
      font-weight:400;
    
 }
  
  .projects .item .project:hover {
-    animation: transform 0.7s ease-in-out both;
+     animation: transform 0.7s ease-in-out both;
 	 background:#f3f59f;
 	 box-shadow:  2px 5px #adad85;
 }
@@ -386,7 +372,7 @@ footer{
      background-color: #0c0c17;
      height:100px;  
     position: relative;
-    top:170px;
+    top:90px;
      
 }
 
